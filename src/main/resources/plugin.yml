@@ -1,0 +1,11 @@
+name: Player-Home-Teleport
+version: ${project.version}
+main: net.englard.shmuelie.playerhometeleport.Plugin
+api-version: 1.15
+load: STARTUP
+authors: [ shmuelie ]
+description: Teleport to players homes
+commands:
+  home:
+    description: "Interact with player homes"
+    usage: "/home [set|remove|list|PlayerName]"
