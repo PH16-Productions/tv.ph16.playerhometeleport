@@ -1,6 +1,6 @@
 name: Player-Home-Teleport
 version: ${project.version}
-main: net.englard.shmuelie.playerhometeleport.Plugin
+main: tv.ph16.playerhometeleport.Plugin
 api-version: 1.15
 load: STARTUP
 authors: [ shmuelie ]

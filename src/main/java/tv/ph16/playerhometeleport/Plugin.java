@@ -1,4 +1,4 @@
-package net.englard.shmuelie.playerhometeleport;
+package tv.ph16.playerhometeleport;
 
 import org.bukkit.Location;
 import org.bukkit.OfflinePlayer;
