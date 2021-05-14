@@ -1,4 +1,4 @@
-Player-Home-Teleport
+Player Home Teleport
 ====================
 
 Allows users to set a "home" that they and others can teleport to.
