@@ -7,8 +7,8 @@
     <artifactId>playerhometeleport</artifactId>
     <version>1.5.1</version>
     <packaging>jar</packaging>
-    <name>Player-Home-Teleport</name>
-    <description>Teleport to players homes</description>
+    <name>Player Home Teleport</name>
+    <description>Allows users to set a "home" that they and others can teleport to.</description>
     <inceptionYear>2020</inceptionYear>
     <developers>
         <developer>
@@ -43,6 +43,21 @@
                 <configuration>
                     <source>${java.version}</source>
                     <target>${java.version}</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.2.0</version>
+                <configuration>
+                    <archive>
+                        <index>true</index>
+                        <manifest>
+                            <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+                            <addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
+                            <addBuildEnvironmentEntries>true</addBuildEnvironmentEntries>
+                        </manifest>
+                    </archive>
                 </configuration>
             </plugin>
         </plugins>
