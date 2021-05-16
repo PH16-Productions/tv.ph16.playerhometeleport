@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>tv.ph16</groupId>
     <artifactId>playerhometeleport</artifactId>
-    <version>1.5.3</version>
+    <version>1.5.4</version>
     <packaging>jar</packaging>
     <name>Player Home Teleport</name>
     <description>Allows users to set a "home" that they and others can teleport to.</description>
