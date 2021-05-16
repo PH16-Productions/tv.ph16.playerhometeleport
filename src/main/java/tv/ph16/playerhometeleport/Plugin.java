@@ -94,7 +94,7 @@ public final class Plugin extends JavaPlugin {
 
     @Nullable
     private OfflinePlayer getPlayer(@NotNull String name) {
-        for (OfflinePlayer player : getServer().getWhitelistedPlayers()) {
+        for (OfflinePlayer player : getServer().getOfflinePlayers()) {
             String playerName = player.getName();
             if (playerName != null && playerName.equalsIgnoreCase(name)) {
                 return player;
@@ -180,7 +180,7 @@ public final class Plugin extends JavaPlugin {
 
     private void onListCommand(@NotNull CommandSender sender) {
         sender.sendMessage("The following players have a home set:");
-        for (OfflinePlayer player : getServer().getWhitelistedPlayers()) {
+        for (OfflinePlayer player : getServer().getOfflinePlayers()) {
             if (getHome(player) != null) {
                 sender.sendMessage("    " + player.getName());
             }
