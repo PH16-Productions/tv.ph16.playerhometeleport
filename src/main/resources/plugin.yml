@@ -9,3 +9,5 @@ commands:
   home:
     description: "Interact with player homes"
     usage: "/home [set|remove|list|PlayerName]"
+libraries:
+  - org.jetbrains:annotations:20.1.0
